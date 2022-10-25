@@ -27,14 +27,14 @@
 # Sample Output 3:
 # 0
 
-lst = list(map(int, input("Введите числа через пробел:\n").split()))
+# lst = list(map(int, input("Введите числа через пробел:\n").split()))
 
-count = 0
-for i in range(1, len(lst)):
-    if lst[i-1]<lst[i]:
-        count+=1
+# count = 0
+# for i in range(1, len(lst)):
+#     if lst[i-1]<lst[i]:
+#         count+=1
 
-print(count)
+# print(count)
 
 # # Транслитерация
 
