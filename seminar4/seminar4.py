@@ -38,21 +38,21 @@
 
 # # Транслитерация
 
-# alphabetE = \
-#     ['a', 'b', 'v', 'g', 'd', 'e', 'yo', 'zh', 'z', 'i', 'y', 'k', 'l', 'm', 'n', 'o',
-#      'p', 'r', 's', 't', 'u', 'f', 'kh', 'ts', 'ch', 'sh', 'shch', '', 'i', '\'', 'e',
-#      'yu', 'ya', ',', '.', '!', '?', ' ']
-# alphabetR = \
-#     ["а", "б", "в", "г", "д", "е", "ё", "ж", "з", "и", "й", "к", "л", "м", "н", "о", "п",
-#      "р", "с", "т", "у", "ф", "х", "ц", "ч", "ш", "щ", "ъ", "ы", "ь", "э", "ю", "я", ",", ".", "!", "?", " "]
+alphabetE = \
+    ['a', 'b', 'v', 'g', 'd', 'e', 'yo', 'zh', 'z', 'i', 'y', 'k', 'l', 'm', 'n', 'o',
+     'p', 'r', 's', 't', 'u', 'f', 'kh', 'ts', 'ch', 'sh', 'shch', '', 'i', '\'', 'e',
+     'yu', 'ya', ',', '.', '!', '?', ' ']
+alphabetR = \
+    ["а", "б", "в", "г", "д", "е", "ё", "ж", "з", "и", "й", "к", "л", "м", "н", "о", "п",
+     "р", "с", "т", "у", "ф", "х", "ц", "ч", "ш", "щ", "ъ", "ы", "ь", "э", "ю", "я", ",", ".", "!", "?", " "]
 
-# base = input('Input word: ')
-# word = []
+base = input('Input word: ')
+word = []
 
-# for i in range(len(base)):
-#     word.append(alphabetR.index(base[i]))
-#     index = word[i]
-#     print(alphabetE[index], end='')
+for i in range(len(base)):
+    word.append(alphabetR.index(base[i]))
+    index = word[i]
+    print(alphabetE[index], end='')
 
 # for i in range(len(base)):
 #     print(base[i].replace(alphabetR[alphabetR.index(base[i])],alphabetE[alphabetR.index(base[i])]), end = '')
