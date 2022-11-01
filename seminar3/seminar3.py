@@ -163,10 +163,10 @@
 # Задайте список. Напишите программу, которая определит, 
 # присутствует ли в заданном списке строк некое число.
 
-s = list(input())
-num = int(input())
-for word in s:
-    if str(num) in word:
-        print("Yes")
-    else:
-        print("No")
+# s = list(input())
+# num = int(input())
+# for word in s:
+#     if str(num) in word:
+#         print("Yes")
+#     else:
+#         print("No")
