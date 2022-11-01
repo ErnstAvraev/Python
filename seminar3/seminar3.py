@@ -114,18 +114,18 @@
 #         print('not infected')
 
 # # черновик
-# searchName = ["a","n","t","o","n"]
+# # searchName = ["a","n","t","o","n"]
 
-# count = 0
-# for i in searchName:
-#     for j in n:
-#         if j == i:
-#             count+=1
-#             break
-# if count >=5:
-#     print('infected')
-# else:
-#     print('not infected')
+# # count = 0
+# # for i in searchName:
+# #     for j in n:
+# #         if j == i:
+# #             count+=1
+# #             break
+# # if count >=5:
+# #     print('infected')
+# # else:
+# #     print('not infected')
 
 
 # # Решение преподавателя: 
@@ -159,6 +159,33 @@
 # count=0
 # otvet=[]
 
+
+# # ANTON
+
+# N = int(input("Input amount of refregerators: "))
+# refregerators = []
+# for i in range(N):
+#      refregerators.append(str(input()))
+# print("numbers of infected refregerators: ")
+# for i in range(N):
+#      if refregerators[i].find('a') != -1:
+#           if refregerators[i].find('n', refregerators[i].find('a')) != -1:
+#                if refregerators[i].find('t', refregerators[i].find('n')) != -1:
+#                     if refregerators[i].find('o', refregerators[i].find('t')) != -1:
+#                          if refregerators[i].find('n', refregerators[i].find('o')) != -1:
+#                               print(i+1, end = " ")
+# print()
+
+# # Решение Сергея
+
+# for i in range(int(input())):
+#      s, virus, x = input(), 'anton', 0
+#      for sym in s:
+#           if sym == virus[x]:
+#                x+=1
+#           if x == 5:
+#                print(i+1, end = ' ')
+#                break
 
 # Задайте список. Напишите программу, которая определит, 
 # присутствует ли в заданном списке строк некое число.
